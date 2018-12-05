@@ -19,7 +19,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 
 ---
 
-6) Confirm the settings are correct and that there are approximately 15,000+ records
+6) Confirm the settings are correct and that there are approximately __15,000+ records
 7) Click __"Finish"__ and wait for export to complete (once finished, you will see a down-arrow to the right of the layer)
 8) Click the __"down-arrow"__ to download the file
 9) Navigate to your Downloads folder on windows File Explorer and unzip the file (it will be name like: Fulcrum_Export_3b08c3bf-09e2-4d66-96fd-30f08f8ad8b4)
