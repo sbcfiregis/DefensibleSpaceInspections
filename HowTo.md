@@ -14,7 +14,7 @@ __Date Time Zone__: (GMT-08:00) Pacific Time (US & Canada)
 
 Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 
-4) Click "Next"
+4) Click __"Next"__
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/fulcrum_screenshot.JPG?raw=true)
 
 ---
