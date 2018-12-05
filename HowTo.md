@@ -49,5 +49,6 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 7) Clear selected features, then __"Select by attributes"__ where
 > __status='Uninspected (Not in 2018)'__
 8) Click __"Show Selected Records"__ below atrribute table
-9) 5) Right-click on _status_ in attribute table and __Field Calculator__
+9) Right-click on _status_ in attribute table and __Field Calculator__
 10) Input __"Uninspected"__
+11) Follow steps 13-19 above, to update the layer named __"2018_defensible_space_inspections_CALFIRE"__
