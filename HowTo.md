@@ -51,4 +51,4 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 8) Click __"Show Selected Records"__ below atrribute table
 9) Right-click on _status_ in attribute table and __Field Calculator__
 10) Input __"Uninspected"__
-11) Follow steps 13-19 above, to update the layer named __"2018_defensible_space_inspections_CALFIRE"__
+11) Inport to AGOL by following steps 13-19 above, to update the layer named __"2018_defensible_space_inspections_CALFIRE"__
