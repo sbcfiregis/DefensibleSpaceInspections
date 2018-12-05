@@ -22,7 +22,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 6) Confirm the settings are correct and that there are approximately __15,000+ records__
 7) Click __"Finish"__ and wait for export to complete (once finished, you will see a down-arrow to the right of the layer)
 8) Click the __"down-arrow"__ to download the file
-9) Navigate to your Downloads folder on windows File Explorer and unzip the file (it will be name like: Fulcrum_Export_3b08c3bf-09e2-4d66-96fd-30f08f8ad8b4)
+9) Navigate to your Downloads folder on windows File Explorer and unzip the file (it will be name like: *Fulcrum_Export_3b08c3bf-09e2-4d66-96fd-30f08f8ad8b4*)
 10) Navigate inside unzipped file until you get to the shapefiles
 11) Select all parts of the shapefile that __DO NOT INCLUDE__ "photoid"
 12) Right click and send to compressed/zipped folder
