@@ -1,4 +1,4 @@
-# Follow Steps 1-12 for both Internal & CALFIRE Data
+# Follow Steps 1-9 for both Internal & CALFIRE Data
 
 1) Login to Fulcrum app at: https://web.fulcrumapp.com/users/sign_in
 2) Click on the __"Defensible Space Inspections"__ App
@@ -34,3 +34,20 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 17) Once upload has completed, ensure __"Update existing features" is checked and __"FID matches to FID"__
 18) Click __"Apply"
 19) Lastly, change the __summary__ field of the feature layer to the date upload (e.g. 2018/12/04)
+
+# CALFIRE Data
+1) Follow steps 1-9 above
+2) Bring the shapefile into ArcMap or QGIS
+3) Open attribute table and  __"Select by attributes"__ where
+> __status='Not Started (Never Inspected)' OR status='Uninspected (Locked Gate)'__
+
+![alt text](https://github.com/sbcfiregis/photos/blob/master/status.JPG?raw=true)
+
+4) Click __"Show Selected Records"__ below atrribute table
+5) Right-click on _status_ in attribute table and __Field Calculator__
+6) Input __"Not Started"__
+7) Clear selected features, then __"Select by attributes"__ where
+> __status='Uninspected (Not in 2018)'__
+8) Click __"Show Selected Records"__ below atrribute table
+9) 5) Right-click on _status_ in attribute table and __Field Calculator__
+10) Input __"Uninspected"__
