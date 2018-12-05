@@ -43,7 +43,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/status.JPG?raw=true)
 
-4) Click __"Show Selected Records"__ below atrribute table
+4) Click __"Show Selected Records"__ below attribute table
 5) Right-click on _status_ in attribute table and __Field Calculator__
 6) Input __"Not Started"__
 7) Clear selected features, then __"Select by attributes"__ where
