@@ -33,7 +33,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 16) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL
 17) Once upload has completed, ensure __"Update existing features" is checked and __"FID matches to FID"__
 18) Click __"Apply"
-19) Lastly, change the __summary__ field of the feature layer to the date upload (e.g. 2018/12/04)
+19) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
 
 # CALFIRE Data
 1) Follow steps 1-9 above
