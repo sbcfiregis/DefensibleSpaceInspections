@@ -1,4 +1,4 @@
-# Steps 1-12 for Internal Data
+# Follow Steps 1-12 for both Internal & CALFIRE Data
 
 1) Login to Fulcrum app at: https://web.fulcrumapp.com/users/sign_in
 2) Click on the __"Defensible Space Inspections"__ App
