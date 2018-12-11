@@ -29,10 +29,10 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 ## ArcGIS Online
 13) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
 14) Click __"Content"__ and search for __Feature Layer__ named __"2018_defensible_space_inspections_SBC"__
-15) Click __"Update Data" > "Append Data to Layer"
+15) Click __"Update Data"__ > "Append Data to Layer"
 16) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL
-17) Once upload has completed, ensure __"Update existing features" is checked and __"FID matches to FID"__
-18) Click __"Apply"
+17) Once upload has completed, ensure __"Update existing features"__ is checked and __"FID matches to FID"__
+18) Click __"Apply"__
 19) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
 
 # CALFIRE Data
