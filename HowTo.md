@@ -47,7 +47,8 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 4) Click __"Show Selected Records"__ button below attribute table
 5) Right-click on _status_ in attribute table and __Field Calculator__
 6) Input __"Not Started"__
-7) Clear selected features, then __"Select by attributes"__ where
+7) Click __"OK"__ to run the field calculation
+7) Once calculation is complete, Clear selected features, then __"Select by attributes"__ where
 > __status='Uninspected (Not in 2018)'__
 8) Click __"Show Selected Records"__ below atrribute table
 9) Right-click on _status_ in attribute table and __Field Calculator__
