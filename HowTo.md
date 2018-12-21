@@ -37,7 +37,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 19) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
 
 # CALFIRE Data
-1) Use same file from following steps 1-9 above
+1) Use the unzipped file from following steps 1-9 above
 2) Bring the shapefile into ArcMap or QGIS
 3) Open attribute table and  __"Select by attributes"__ where
 > __status='Not Started (Never Inspected)' OR status='Uninspected (Locked Gate)'__
