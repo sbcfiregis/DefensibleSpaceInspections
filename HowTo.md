@@ -58,5 +58,4 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 14) Save the layer as a shapefile and named: __"2018_SBC_defensible_space_inspections_CALFIRE"__
 15) Once layer finishes saving, find in windows explorer and zip the shapefile.
 16) Import to AGOL by following steps 13-19 above 
-
 (except search for and update __"2018_SBC_defensible_space_inspections_CALFIRE"__)
