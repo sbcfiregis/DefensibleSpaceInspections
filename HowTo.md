@@ -53,4 +53,8 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 9) Click __"Show Selected Records"__ below atrribute table
 10) Right-click on _status_ in attribute table and __Field Calculator__
 11) Input __"Uninspected"__
-12) Import to AGOL by following steps 13-19 above, & update the layer named __"2018_SBC_defensible_space_inspections_CALFIRE"__
+12) Once calculation is complte, Clear Selected features.
+13) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
+14) Save the layer as a shapefile and named: __"2018_SBC_defensible_space_inspections_CALFIRE"__
+15) Once layer finishes saving, find in windows explorer and zip the shapefile.
+16) Import to AGOL by following steps 13-19 above
