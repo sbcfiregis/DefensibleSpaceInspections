@@ -24,7 +24,8 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 8) Click the __"down-arrow"__ to download the file
 9) Navigate to your Downloads folder on windows File Explorer and unzip the file (it will be named like: *Fulcrum_Export_3b08c3bf-09e2-4d66-96fd-30f08f8ad8b4*)
 10) Navigate inside unzipped file until you get to the shapefiles
-11) Select all parts of the shapefile that __DO NOT INCLUDE__ "photoid" and add _SBC to all 4 parts of the shapefile
+11) Select all parts of the shapefile that __DO NOT INCLUDE__ "photoid" and add "_SBC" to all 4 parts of the shapefile
+
 (ex: 2018_defensible_space_inspections_SBC)
 12) Right click and send to compressed/zipped folder
 ## ArcGIS Online
