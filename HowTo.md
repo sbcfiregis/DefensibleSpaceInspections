@@ -29,8 +29,8 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 12) Right click and send to compressed/zipped folder
 ## ArcGIS Online
 13) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
-14) Click __"Content"__ and search for __Feature Layer__ named __"2018_defensible_space_inspections_SBC"__
-15) Click __"Update Data"__ > "Append Data to Layer"
+14) Click __"Content"__ and search for __Shapefile__ named __"2018_defensible_space_inspections_SBC"__
+15) Click __"Update"__ > "Update Item"
 16) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL and that you select the zip file __within__ the downloaded folder
 17) Once upload has completed, ensure __"Update existing features"__ is checked and __"FID matches to FID"__
 18) Click __"Apply Updates"__
