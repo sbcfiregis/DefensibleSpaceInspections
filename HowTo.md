@@ -26,7 +26,8 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 10) Navigate inside unzipped file until you get to the shapefiles
 11) Select all parts of the shapefile that __DO NOT INCLUDE__ "photoid" and add "_SBC" to all 4 parts of the shapefile
 (ex: 2018_defensible_space_inspections_SBC)
-12) Right click and send to compressed/zipped folder
+12) Bring shapefile into ArcMap/QGIS and __field calculate__ "Date" field.  Close out.  
+13) Right click and send to compressed/zipped folder
 ## ArcGIS Online
 13) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
 14) Click __"Content"__ and search for __Shapefile__ named __"2018_defensible_space_inspections_SBC"__
