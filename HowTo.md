@@ -27,16 +27,17 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 11) Select all parts of the shapefile that __DO NOT INCLUDE__ "photoid" and add "_SBC" to all 4 parts of the shapefile
 (ex: 2019_defensible_space_inspections_SBC)
 12) Bring shapefile into ArcMap/QGIS and __field calculate__ "Date" field from the "Inspection" field.  Close out.  
-13) Back in windows File Explorer, Right click and send to compressed/zipped folder
+13) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and dvegetation assessments complete.
+15) Back in windows File Explorer, Right click and send to compressed/zipped folder
 ## ArcGIS Online
-13) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
-14) Click __"Content"__ and search for __Shapefile__ named __"2019_defensible_space_inspections_SBC"__
-15) Click __"Update"__ > "Update Item"
-16) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL and that you select the zip file __within__ the downloaded folder
-17) Once upload has completed, ensure __"Update existing features"__ is checked and __"FID matches to FID"__
-18) Click __"Apply Updates"__
-19) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
-20) Repeat steps #15-19 for the feature layer of the same name.
+16) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
+17) Click __"Content"__ and search for __Shapefile__ named __"2019_defensible_space_inspections_SBC"__
+18) Click __"Update"__ > "Update Item"
+19) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL and that you select the zip file __within__ the downloaded folder
+20) Once upload has completed, ensure __"Update existing features"__ is checked and __"FID matches to FID"__
+21) Click __"Apply Updates"__
+22) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
+23) Repeat steps #15-19 for the feature layer of the same name.
 
 # CALFIRE Data
 1) Use the unzipped file from following steps 1-9 above
