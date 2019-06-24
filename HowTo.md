@@ -28,7 +28,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 (ex: 2019_defensible_space_inspections_SBC)
 12) Bring shapefile into ArcMap/QGIS and __field calculate__ "Date" field from the "Inspection" field.  Close out.  
 13) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
-    __"All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-Citation"
+    __"All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-Citation"__
 15) Back in windows File Explorer, Right click and send to compressed/zipped folder
 ## ArcGIS Online
 16) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
