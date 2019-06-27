@@ -26,7 +26,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 10) Navigate inside unzipped file until you get to the shapefiles
 11) Select parts of the shapefile that __DO NOT INCLUDE__ "photoid" or "2019_inspection" and add "_SBC" to all 4 parts of the shapefile
 (ex: 2019_defensible_space_inspections_SBC)
-12) Bring shapefile into ArcMap/QGIS, create new __Date__ field and __field calculate__ "Date" field from the "Inspection" field.  Close out.  
+12) Bring shapefile into ArcMap/QGIS, create new __Date__ field and __field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.  Close out.  
 13) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
     __"All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-Citation"__
 14) Select only __SRA Properties!__
