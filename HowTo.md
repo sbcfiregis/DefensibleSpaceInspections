@@ -31,6 +31,7 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 13) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
     __"All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-Citation"__
 13b) Select only __SRA Properties!__
+13c) Merge MTO data to SBC ------
 14) Back in windows File Explorer, Right click and send to compressed/zipped folder
 ## ArcGIS Online
 15) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
