@@ -29,17 +29,17 @@ Ensure Correct App is checked __(2018 Defensible Space Inspections)__
 12) Bring shapefile into ArcMap/QGIS, create new __Date__ field and __field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.  Close out.  
 13) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
     __"All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-Citation"__
-14) Select only __SRA Properties!__
-15) Back in windows File Explorer, Right click and send to compressed/zipped folder
+13.b)     Select only __SRA Properties!__
+14) Back in windows File Explorer, Right click and send to compressed/zipped folder
 ## ArcGIS Online
-16) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
-17) Click __"Content"__ and search for __Shapefile__ named __"2019_defensible_space_inspections_SBC"__
-18) Click __"Update"__ > "Update Item"
-19) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL and that you select the zip file __within__ the downloaded folder
-20) Once upload has completed, ensure __"Update existing features"__ is checked and __"FID matches to FID"__
-21) Click __"Apply Updates"__
-22) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
-23) Repeat steps #15-19 for the feature layer of the same name.
+15) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
+16) Click __"Content"__ and search for __Shapefile__ named __"2019_defensible_space_inspections_SBC"__
+17) Click __"Update"__ > "Update Item"
+18) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL and that you select the zip file __within__ the downloaded folder
+19) Once upload has completed, ensure __"Update existing features"__ is checked and __"FID matches to FID"__
+20) Click __"Apply Updates"__
+21) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
+22) Repeat steps #15-19 for the feature layer of the same name.
 
 # CALFIRE Data
 1) Use the unzipped file from following steps 1-9 above
