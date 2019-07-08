@@ -28,10 +28,10 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 (ex: 2019_defensible_space_inspections_SBC)
 12) Bring shapefile into ArcMap/QGIS, open attribute table, create new __Date__ field and __field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.  
 13) Delete the following fields: created by, updated by, engine_co, engine_co1, prevention, preventi_1, preventi_2, preventi_3, gateCode, Comments, photoid_ur,  > __Close out__  
-13a) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
+13.1) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
     __"All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-Citation"__
-13b) Select only __SRA Properties!__
-13c) Merge MTO data to SBC ------
+13.2) Select only __SRA Properties!__
+13.3) Merge MTO data to SBC ------
 14) Back in windows File Explorer, select all parts of SBC shapefile, Right click and send to compressed/zipped folder
 ## ArcGIS Online
 15) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
@@ -59,5 +59,5 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 10) Save layer at L:/GIS/Base Data/DSP/2019 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20190708" > Save as a shapefile and named: __"2019_SBC_defensible_space_inspections_CALFIRE"__
 11) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
 12) Navigate to file in windows explorer and zip the shapefile.
-12) Import to AGOL by following steps 16-22 above 
+12) Import to AGOL by following steps 16-21 above 
 (except search for and update __"2019_SBC_defensible_space_inspections_CALFIRE"__)
