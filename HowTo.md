@@ -57,6 +57,7 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 8) "Clear Selected Features"
 9) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
 10) Save layer at L:/GIS/Base Data/DSP/2019 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20190708" > Save as a shapefile and named: __"2019_SBC_defensible_space_inspections_CALFIRE"__
-11) Once layer finishes saving, find in windows explorer and zip the shapefile.
+11) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
+12) Navigate to file in windows explorer and zip the shapefile.
 12) Import to AGOL by following steps 13-19 above 
 (except search for and update __"2019_SBC_defensible_space_inspections_CALFIRE"__)
