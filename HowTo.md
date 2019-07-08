@@ -1,7 +1,7 @@
 # Follow Steps 1-9 for both Internal & CALFIRE Data
 
 1) Login to Fulcrum app at: https://web.fulcrumapp.com/users/sign_in
-2) Click on the __"Defensible Space Inspections"__ App
+2) Click on the __"2019 Defensible Space Inspections"__ App
 3) Click __"Exporter Export Data"__ in bottom left
 
 ___
@@ -12,7 +12,7 @@ __Date Range__: [Default]
 
 __Date Time Zone__: (GMT-08:00) Pacific Time (US & Canada)
 
-Ensure Correct App is checked __(2018 Defensible Space Inspections)__
+Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 
 4) Click __"Next"__
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/fulcrum_screenshot.JPG?raw=true)
