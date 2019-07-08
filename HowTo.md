@@ -40,7 +40,7 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 18) Ensure that the zip file you are uploading is named __exactly the same__ as it appears on AGOL and that you select the zip file __within__ the downloaded folder > __"Overwrite"__
 19) Wait ~ 2 minutes for upload to complete
 20) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
-21) Search for __SBC 2019 Defensible Space Inspection Dashboard__ > __Edit Application__ > change _Current as of date_ to same as above.
+21) Search for __SBC 2019 Defensible Space Inspection Dashboard__ > __Edit Application__ > change _Current as of date_ to same as above.  Save changes.
 
 # CALFIRE Data
 1) Use the unzipped file from following steps 1-9 above
