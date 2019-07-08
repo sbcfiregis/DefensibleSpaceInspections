@@ -46,13 +46,13 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 1) Use the unzipped file from following steps 1-9 above
 2) Bring the shapefile into ArcMap or QGIS
 3) Open attribute table and  __"Select by attributes"__ where
-> __status='Not Started (Never Inspected)' OR status='Uninspected (Locked Gate)'__
+> __"status" IN ('Incomplete Data or Never Inspected', 'Due for 2019 Inspection', 'Not Inspected Since 2017', 'Structure Destroyed', 'Uninspected (Locked Gate)')__
 
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/status.JPG?raw=true)
 
 4) Click __"Show Selected Records"__ button below attribute table
 5) Right-click on _status_ in attribute table and __Field Calculator__
-6) Input __"Not Started"__
+6) Input __"Uninspected"__
 7) Click __"OK"__ to run the field calculation
 8) Once calculation is complete, Clear selected features, then __"Select by attributes"__ where
 > __status='Uninspected (Not in 2018)'__
