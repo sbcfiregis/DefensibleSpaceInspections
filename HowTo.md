@@ -55,9 +55,10 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 6) Input __"Uninspected"__
 7) Click __"OK"__ to run the field calculation
 8) "Clear Selected Features"
-9) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
-10) Save layer at L:/GIS/Base Data/DSP/2019 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20190708" > Save as a shapefile and named: __"2019_SBC_defensible_space_inspections_CALFIRE"__
-11) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
-12) Navigate to file in windows explorer and zip the shapefile.
-12) Import to AGOL by following steps 16-21 above 
+9) Select by attributes where fields = "Unable to Assess".  Field calculate these to " " (blank)
+10) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
+11) Save layer at L:/GIS/Base Data/DSP/2019 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20190708" > Save as a shapefile and named: __"2019_SBC_defensible_space_inspections_CALFIRE"__
+12) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
+13) Navigate to file in windows explorer and zip the shapefile.
+14) Import to AGOL by following steps 16-21 above 
 (except search for and update __"2019_SBC_defensible_space_inspections_CALFIRE"__)
