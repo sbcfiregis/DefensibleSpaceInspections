@@ -27,11 +27,39 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 11) Select parts of the shapefile that __DO NOT INCLUDE__ "photoid" or "2019_inspection" and add "_SBC" to all 4 parts of the shapefile
 (ex: 2019_defensible_space_inspections_SBC)
 12) Bring shapefile into ArcMap/QGIS, open attribute table, create new __Date__ field (Titled: "Date") and __field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.  
-13) Delete the following fields: created by, updated by, engine_co, engine_co1, prevention, preventi_1, preventi_2, preventi_3, gateCode, Comments, photoid_ur,  > __Close out__  
-13.1) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
-    __"All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-Citation"__
-13.2) Select only __SRA Properties!__
-13.3) Merge MTO data to SBC ------
+13) __Delete__ the following fields:
+
+    a) created by
+
+    b) updated by 
+    
+    c) engine_co 
+    
+    d) engine_co1 
+
+    e) prevention 
+    
+    f) preventi_1 
+    
+    g) preventi_2 
+    
+    h) preventi_3 
+    
+    i) gateCode 
+    
+    j) Comments
+    
+    k) photoid_ur  
+    
+> __Close out__ 
+
+    13.1) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
+    "All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-      Citation"
+    
+    13.2) Select only __SRA Properties!__
+
+    13.3) Merge MTO data to SBC ------
+
 14) Back in windows File Explorer, select all parts of SBC shapefile, Right click and send to compressed/zipped folder
 ## ArcGIS Online
 15) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
