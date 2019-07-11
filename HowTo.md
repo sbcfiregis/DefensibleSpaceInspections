@@ -60,7 +60,7 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 
     13.3) Merge MTO data to SBC ------
 
-14) Back in windows File Explorer, select all parts of SBC shapefile, Right click and send to compressed/zipped folder
+14) Back in windows File Explorer, select all parts of "2019_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder
 ## ArcGIS Online
 15) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
 16) Click __"Content"__ and search for __Feature Layer__ named __"2019_defensible_space_inspections_SBC"__
