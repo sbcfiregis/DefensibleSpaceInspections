@@ -85,9 +85,10 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 8) "Clear Selected Features"
 9) Select by attributes where fields = "Unable to Assess". __occupantho, deliveryno, propanetan, accessegre, structuret, roofconstr, eaves, ventscreen, exteriorsi, windowpane, deckporchg, deckporche, patiocover, fenceattac__     
 Field calculate these to " " (blank)
-10) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
-11) Save layer at L:/GIS/Base Data/DSP/2019 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20190708" > Save as a shapefile and named: __"2019_SBC_defensible_space_inspections_CALFIRE"__
-12) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
-13) Navigate to file in windows explorer and zip the shapefile.
-14) Import to AGOL by following steps 16-21 above ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
+10) Make sure to only choose records up until the last day of the month.  (For CF records-sake)
+11) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
+12) Save layer at L:/GIS/Base Data/DSP/2019 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20190708" > Save as a shapefile and named: __"2019_SBC_defensible_space_inspections_CALFIRE"__
+13) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
+14) Navigate to file in windows explorer and zip the shapefile.
+15) Import to AGOL by following steps 16-21 above ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
 (except search for and update __"2019_SBC_defensible_space_inspections_CALFIRE"__)
