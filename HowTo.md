@@ -1,3 +1,4 @@
+# SBC Dashboard (update weekly)
 # Follow Steps 1-9 for both Internal & CALFIRE Data
 
 1) Login to Fulcrum app at: https://web.fulcrumapp.com/users/sign_in
@@ -70,7 +71,7 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
 20) Lastly, change the __summary__ field of the feature layer to the date uploaded (e.g. 2018/12/04) __VERY IMPORTANT__
 21) Search for __SBC 2019 Defensible Space Inspection Dashboard__ > __Edit Application__ > change _Current as of date_ to same as above.  Save changes.
 
-# CALFIRE Data
+# CALFIRE Data (update monthly)
 1) Use the unzipped file from following steps 1-9 above
 2) Bring the shapefile into ArcMap or QGIS
 3) Open attribute table and  __"Select by attributes"__ where
