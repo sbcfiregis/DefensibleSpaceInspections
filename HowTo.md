@@ -69,7 +69,9 @@ ____________________________________________________________________________
 
 13.6) Test one record in how it merges to "2019_defensible_space_inspections_SBC".  If all looks correct, copy rest of layer.
 
-13.7)Select where calfireuni, county, battalio are blank.  Then __Field calculate__: calfireuni=SBC, county=SBA, battalion=1
+13.7) Select where calfireuni, county, battalion are blank.  Then __Field calculate__: calfireuni=SBC, county=SBA, battalion=1
+
+13.8) __Field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.
 
 13.8) *In progress: should we delete the MTO records in SBC Fulcrum?*
 _____________________________________________________________________________
