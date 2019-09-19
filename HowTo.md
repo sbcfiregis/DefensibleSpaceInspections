@@ -54,7 +54,7 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
     
 > __Close out__ 
 
-**__Steps 13.1-13.5 below are OPTIONAL__
+**__Steps 13.1-13.6 below are OPTIONAL__
 ____________________________________________________________________________
 13.1) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
     "All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-      Citation"
@@ -66,6 +66,8 @@ ____________________________________________________________________________
 13.4) Select by location where MTO records overlap SBC records.  Export a csv from these records, (save at "L:\GIS\Base Data\DSP\2019 DSP Program\documents\MTO_SBC_completed_deletions") then delete overlaps from __SBC layer__.  **Many point locations have been changed in the MTO app, thus, a manual validation of overlaps should be used for remaining records.  Save a csv of the additional records to be deleted, then delete from SBC.
 
 13.5) Merge MTO data to SBC ------
+
+13.6) *In progress: should we delete the MTO records in SBC Fulcrum?*
 _____________________________________________________________________________
 14) Back in windows File Explorer, select all parts of "2019_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder.  Then save this zipped folder at: "L:\GIS\Base Data\DSP\2019 DSP Program\SBC AGOL" > create new folder here with the date you exported (e.g. 20190630)
 ## ArcGIS Online
