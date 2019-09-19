@@ -73,7 +73,7 @@ ____________________________________________________________________________
 
 13.8) __Field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.
 
-13.8) *In progress: should we delete the MTO records in SBC Fulcrum?*
+13.8) *In progress: wait until 2020 DSP to delete the MTO records in SBC Fulcrum*
 _____________________________________________________________________________
 14) Back in windows File Explorer, select all parts of "2019_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder.  Then save this zipped folder at: "L:\GIS\Base Data\DSP\2019 DSP Program\SBC AGOL" > create new folder here with the date you exported (e.g. 20190630)
 ## ArcGIS Online
