@@ -67,11 +67,11 @@ ____________________________________________________________________________
 
 13.5) In MTO layer, create new fields for; status, latitude, longitude, address_fu.  __Field calculator__ these.
 
-13.6) __Field calculate__: calfireuni, county, battalion
+13.6) Test one record in how it merges to "2019_defensible_space_inspections_SBC".  If all looks correct, copy rest of layer.
 
-13.6) Test one record in how it merges to "2019_defensible_space_inspections_SBC"
+13.7)Select where calfireuni, county, battalio are blank.  Then __Field calculate__: calfireuni=SBC, county=SBA, battalion=1
 
-13.7) *In progress: should we delete the MTO records in SBC Fulcrum?*
+13.8) *In progress: should we delete the MTO records in SBC Fulcrum?*
 _____________________________________________________________________________
 14) Back in windows File Explorer, select all parts of "2019_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder.  Then save this zipped folder at: "L:\GIS\Base Data\DSP\2019 DSP Program\SBC AGOL" > create new folder here with the date you exported (e.g. 20190630)
 ## ArcGIS Online
