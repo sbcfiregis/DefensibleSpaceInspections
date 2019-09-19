@@ -65,9 +65,13 @@ ____________________________________________________________________________
     
 13.4) Select by location where MTO records overlap SBC records.  Export a csv from these records, (save at "L:\GIS\Base Data\DSP\2019 DSP Program\documents\MTO_SBC_completed_deletions") then delete overlaps from __SBC layer__.  **Many point locations have been changed in the MTO app, thus, a manual validation of overlaps should be used for remaining records.  Save a csv of the additional records to be deleted, then delete from SBC.
 
-13.5) Merge MTO data to SBC ------
+13.5) In MTO layer, create new fields for; status, latitude, longitude, address_fu.  __Field calculator__ these.
 
-13.6) *In progress: should we delete the MTO records in SBC Fulcrum?*
+13.6) __Field calculate__: calfireuni, county, battalion
+
+13.6) Test one record in how it merges to "2019_defensible_space_inspections_SBC"
+
+13.7) *In progress: should we delete the MTO records in SBC Fulcrum?*
 _____________________________________________________________________________
 14) Back in windows File Explorer, select all parts of "2019_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder.  Then save this zipped folder at: "L:\GIS\Base Data\DSP\2019 DSP Program\SBC AGOL" > create new folder here with the date you exported (e.g. 20190630)
 ## ArcGIS Online
