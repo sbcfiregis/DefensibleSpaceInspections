@@ -54,7 +54,7 @@ Ensure Correct App is checked __(2019 Defensible Space Inspections)__
     
 > __Close out__ 
 
-**__Steps 13.1-13.6 below are OPTIONAL__
+**__Steps 13.1-13.6 below are OPTIONAL__ and only necessary once a month
 ____________________________________________________________________________
 13.1) Follow steps 1-12 for MTO Defensible Space Records.  Select only records with structure and vegetation assessments complete.
     "All Inspections Current", "1st Non Compliant", "2nd Compliant", "2nd Non Compliant", "3rd Compliant", "4th Non Compliant-      Citation"
