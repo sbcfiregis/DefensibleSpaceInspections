@@ -86,7 +86,7 @@ _____________________________________________________________________________
 1) Use the unzipped file from following steps 1-9 above
 2) Bring the shapefile into ArcMap or QGIS
 3) Open attribute table and  __"Select by attributes"__ where
-> __"status" IN ('Incomplete Data or Never Inspected', 'Due for 2020 Inspection', 'Structure Destroyed', 'Uninspected (Locked Gate)')__
+> __"status" IN ('Incomplete Data or Never Inspected', 'Due for Inspection 2020', 'Structure Destroyed', 'Uninspected (Locked Gate)')__
 
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/2019_Fulcrum_DSP_Status_screenshot.PNG?raw=true)
 
@@ -99,8 +99,8 @@ _____________________________________________________________________________
 Field calculate these to " " (blank)
 10) Make sure to only choose records up until the last day of the month.  (For CF records-sake)
 11) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
-12) Save layer at L:/GIS/Base Data/DSP/2019 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20190708" > Save as a shapefile and named: __"2020_SBC_defensible_space_inspections_CALFIRE"__
+12) Save layer at L:/GIS/Base Data/DSP/2020 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20200708" > Save as a shapefile and named: __"2020_SBC_defensible_space_inspections_CALFIRE"__
 13) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
 14) Navigate to file in windows explorer and zip the shapefile.
 15) Import to AGOL by following steps 16-21 above ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
-(except search for and update __"2019_SBC_defensible_space_inspections_CALFIRE"__)
+(except search for and update __"2020_SBC_defensible_space_inspections_CALFIRE"__)
