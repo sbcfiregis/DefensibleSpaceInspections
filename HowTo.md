@@ -88,7 +88,7 @@ _____________________________________________________________________________
 3) Open attribute table and  __"Select by attributes"__ where
 > __"status" IN ('Incomplete Data or Never Inspected', 'Due for Inspection 2020', 'Structure Destroyed', 'Uninspected (Locked Gate)')__
 
-![alt text](https://github.com/sbcfiregis/photos/blob/master/2019_Fulcrum_DSP_Status_screenshot.PNG?raw=true)
+![alt text](https://github.com/sbcfiregis/photos/blob/master/dsp.JPG?raw=true)
 
 4) Click __"Show Selected Records"__ button below attribute table
 5) Right-click on _status_ in attribute table and __Field Calculator__
