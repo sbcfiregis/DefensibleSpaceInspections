@@ -72,7 +72,7 @@ ____________________________________________________________________________
 
 13.8) __Field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.
 _____________________________________________________________________________
-14) Back in windows File Explorer, select all parts of "2019_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder.  Then save this zipped folder at: "L:\GIS\Base Data\DSP\2019 DSP Program\SBC AGOL" > create new folder here with the date you exported (e.g. 20190630)
+14) Back in windows File Explorer, select all parts of "2020_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder.  Then save this zipped folder at: "L:\GIS\Base Data\DSP\2020 DSP Program\SBC AGOL" > create new folder here with the date you exported (e.g. 20200630)
 ## ArcGIS Online
 15) Login to AGOL account here: https://sbc-gis.maps.arcgis.com/home/signin.html
 16) Click __"Content"__ and search for __Feature Layer__ named __"2020_defensible_space_inspections_SBC"__
