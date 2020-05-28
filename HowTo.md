@@ -60,7 +60,7 @@ ____________________________________________________________________________
     
 13.2) Select only __SRA Properties!__
     
-13.3) Select all records with status= "All Inspections Current", then __field calculate__ to "1st Compliant"
+13.3) Select all records with status= "All Inspections Current", then __field calculate__ to "Compliant"
     
 13.4) Select by location where MTO records overlap SBC records.  Export a csv from these records, (save at "L:\GIS\Base Data\DSP\2020 DSP Program\documents\MTO_SBC_completed_deletions") then delete overlaps from __SBC layer__.  **Many point locations have been changed in the MTO app, thus, a manual validation of overlaps should be used for remaining records.  Save a csv of the additional records to be deleted, then delete from SBC.
 
