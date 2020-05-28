@@ -62,11 +62,11 @@ ____________________________________________________________________________
     
 13.3) Select all records with status= "All Inspections Current", then __field calculate__ to "1st Compliant"
     
-13.4) Select by location where MTO records overlap SBC records.  Export a csv from these records, (save at "L:\GIS\Base Data\DSP\2019 DSP Program\documents\MTO_SBC_completed_deletions") then delete overlaps from __SBC layer__.  **Many point locations have been changed in the MTO app, thus, a manual validation of overlaps should be used for remaining records.  Save a csv of the additional records to be deleted, then delete from SBC.
+13.4) Select by location where MTO records overlap SBC records.  Export a csv from these records, (save at "L:\GIS\Base Data\DSP\2020 DSP Program\documents\MTO_SBC_completed_deletions") then delete overlaps from __SBC layer__.  **Many point locations have been changed in the MTO app, thus, a manual validation of overlaps should be used for remaining records.  Save a csv of the additional records to be deleted, then delete from SBC.
 
 13.5) In MTO layer, create new fields for; status, latitude, longitude, address_fu.  __Field calculator__ these.
 
-13.6) Test one record in how it merges to "2019_defensible_space_inspections_SBC".  If all looks correct, copy rest of layer.
+13.6) Test one record in how it merges to "2020_defensible_space_inspections_SBC".  If all looks correct, copy rest of layer.
 
 13.7) Select where calfireuni, county, battalion are blank.  Then __Field calculate__: calfireuni=SBC, county=SBA, battalion=1
 
