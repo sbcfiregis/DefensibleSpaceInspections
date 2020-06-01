@@ -1,0 +1,15 @@
+Note: "Status"= "properyst"
+
+1. Clear out "inspection" field.  "inspectorf" to "preventi3" need to be blank
+
+2. Clear out the following fields; inspection, occupant home, inspection_1, any violations (A-M), escalate
+
+3. Find and replace all "Unable to Assess" with blank
+
+4. __Status Conversions__
+
+  - if missing any structure data= "Not Started or Never Inspected" (pink)
+  
+  - if not destroyed or incomplete= "Due for Inspection 2020"
+  
+5. Test 1 record for import inot Fulcrum.  Note all errors
