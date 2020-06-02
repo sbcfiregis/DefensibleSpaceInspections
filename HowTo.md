@@ -27,7 +27,7 @@ Ensure Correct App is checked __(2020 Defensible Space Inspections)__
 10) Navigate inside unzipped file until you get to the shapefiles
 11) Select parts of the shapefile that __DO NOT INCLUDE__ "photoid" or "2020_inspection" and add "_SBC" to all 4 parts of the shapefile
 (ex: 2019_defensible_space_inspections_SBC)
-12) Bring shapefile into ArcMap/QGIS, open attribute table, create new __Date__ field (Titled: "Date") and __field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.  
+12) Bring shapefile into ArcMap/QGIS, open attribute table, create new __Date__ field (Titled: "Date") and __field calculate__ "Date" field from the "Inspecti_1" field.  NOTE: you may receive a processing error, but click yes and the process will complete.  
 13) __Delete__ the following fields:
 
     a) created by
