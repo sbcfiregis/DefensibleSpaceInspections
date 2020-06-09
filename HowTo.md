@@ -95,8 +95,7 @@ _____________________________________________________________________________
 6) Input __"Uninspected"__
 7) Click __"OK"__ to run the field calculation
 8) "Clear Selected Features"
-9) Select by attributes where fields = "Unable to Assess". __occupantho, deliveryno, propanetan, accessegre, structuret, roofconstr, eaves, ventscreen, exteriorsi, windowpane, deckporchg, deckporche, patiocover, fenceattac__     
-Field calculate these to " " (blank)
+9) Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
 10) Make sure to only choose records up until the last day of the month.  (For CF records-sake)
 11) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
 12) Save layer at L:/GIS/Base Data/DSP/2020 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20200708" > Save as a shapefile and named: __"2020_SBC_defensible_space_inspections_CALFIRE"__
