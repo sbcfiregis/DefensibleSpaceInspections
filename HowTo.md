@@ -83,23 +83,21 @@ _____________________________________________________________________________
 21) Search for __SBC 2020 Defensible Space Inspection Dashboard__ > __Edit Application__ > change _Current as of date_ to same as above.  Save changes.
 
 # CALFIRE Data (update monthly)
-1) Use the unzipped file from following steps 1-9 above
-2) Bring the shapefile into ArcMap or QGIS
-3) Open attribute table and  __"Select by attributes"__ where
+1) Extract the zipfile from the steps 1-9 above, and copy to ""L:\GIS\Base Data\DSP\2020 DSP Program\CAL FIRE AGOL" with new folder for today's date.
+2) Once extracted, change name to "2020_SBC_defensible_space_inspections_CALFIRE"
+3) Bring the shapefile into ArcMap or QGIS
+4) Open attribute table and  __"Select by attributes"__ where
 > __"status" IN ('Incomplete Data or Never Inspected', 'Due for Inspection 2020', 'Structure Destroyed', 'Uninspected (Locked Gate)')__
 
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/dsp.JPG?raw=true)
 
-4) Click __"Show Selected Records"__ button below attribute table
-5) Right-click on _status_ in attribute table and __Field Calculator__
-6) Input __"Uninspected"__
-7) Click __"OK"__ to run the field calculation
-8) "Clear Selected Features"
-9) Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
-10) Make sure to only choose records up until the last day of the month.  (For CF records-sake)
-11) Right-click on layer in __Layers__ and select __"Data"__>__"Export Data"__
-12) Save layer at L:/GIS/Base Data/DSP/2020 DSP Program/CAL FIRE AGOL/ > create a new folder with date as "20200708" > Save as a shapefile and named: __"2020_SBC_defensible_space_inspections_CALFIRE"__
-13) Once layer finishes saving, add to map and verify shapefile saved correctly, close out.  
-14) Navigate to file in windows explorer and zip the shapefile.
-15) Import to AGOL by following steps 16-21 above ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
+5) Click __"Show Selected Records"__ button below attribute table
+6) Right-click on _status_ in attribute table and __Field Calculator__
+7) Input __"Uninspected"__
+8) Click __"OK"__ to run the field calculation
+9) "Clear Selected Features"
+10) Enable editing, Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
+11) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
+12) Close out, and Navigate to file in windows explorer and zip the shapefile.
+13) Import to AGOL by following steps 16-21 above ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
 (except search for and update __"2020_SBC_defensible_space_inspections_CALFIRE"__)
