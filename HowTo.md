@@ -99,5 +99,6 @@ _____________________________________________________________________________
 10) Enable editing, Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
 11) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
 12) Close out, and Navigate to file in windows explorer and zip the shapefile.
-13) Import to AGOL by following steps 16-21 above ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
-(except search for and update __"2020_SBC_defensible_space_inspections_CALFIRE"__)
+13) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
+    - Append Data UPDATE EXISTING FEATURES GlobalID matches
+    - Show Field Matching> Match these up
