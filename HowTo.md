@@ -100,5 +100,5 @@ _____________________________________________________________________________
 11) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
 12) Close out, and Navigate to file in windows explorer and zip the shapefile.
 13) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
-    - Append Data UPDATE EXISTING FEATURES GlobalID matches
-    - Show Field Matching> Match these up
+    - Overwrite data
+    - Rename fields?
