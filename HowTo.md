@@ -28,7 +28,6 @@ Ensure Correct App is checked __(2020 Defensible Space Inspections)__
 11) Select parts of the shapefile that __DO NOT INCLUDE__ "photoid" or "2020_inspection" and add "_SBC" to all 4 parts of the shapefile
 (ex: 2019_defensible_space_inspections_SBC)
 12) Bring shapefile into ArcMap/QGIS, open attribute table, create new __Date__ field (Titled: "Date") and __field calculate__ "Date" field from the "Inspecti_1" field.  NOTE: you may receive a processing error, but click yes and the process will complete.  
-Also, field calc "Uninspected" records to 5/1/2020.
 13) __Delete__ the following fields:
 
     a) created by
@@ -88,18 +87,14 @@ _____________________________________________________________________________
 2) Once extracted, change name to "2020_SBC_defensible_space_inspections_CALFIRE"
 3) Bring the shapefile into ArcMap or QGIS
 4) Open attribute table and  __"Select by attributes"__ where
-> __"status" IN ('Incomplete Data or Never Inspected', 'Due for Inspection 2020', 'Structure Destroyed', 'Uninspected (Locked Gate)')__
+> __"status" NOT IN ('Incomplete Data or Never Inspected', 'Due for Inspection 2020')__
 
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/dsp.JPG?raw=true)
 
-5) Click __"Show Selected Records"__ button below attribute table
-6) Right-click on _status_ in attribute table and __Field Calculator__
-7) Input __"Uninspected"__
-8) Click __"OK"__ to run the field calculation
-9) "Clear Selected Features"
-10) Enable editing, Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
-11) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
-12) Close out, and Navigate to file in windows explorer and zip the shapefile.
-13) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
+5) "Create layer from Selected Features"
+6) Enable editing, Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
+7) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
+8) Close out, and Navigate to file in windows explorer and zip the shapefile.
+9) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
     - Overwrite data
     - Rename fields?
