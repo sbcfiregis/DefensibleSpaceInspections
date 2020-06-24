@@ -61,17 +61,15 @@ ____________________________________________________________________________
     
 13.2) Select only __SRA Properties!__
     
-13.3) Select all records with status= "All Inspections Current", then __field calculate__ to "Compliant"
+13.3) Select all __EXCEPT__ records with status= "Needs...", "Vacant", "Incomplete", "Prevention" then __field calculate__ those that have passed to "Compliant".  Fix non-compliants.  
     
-13.4) Select by location where MTO records overlap SBC records.  Export a csv from these records, (save at "L:\GIS\Base Data\DSP\2020 DSP Program\documents\MTO_SBC_completed_deletions") then delete overlaps from __SBC layer__.  **Many point locations have been changed in the MTO app, thus, a manual validation of overlaps should be used for remaining records.  Save a csv of the additional records to be deleted, then delete from SBC.
+13.4) In MTO layer, create new fields for; status, latitude, longitude, address_fu.  __Field calculator__ these.
 
-13.5) In MTO layer, create new fields for; status, latitude, longitude, address_fu.  __Field calculator__ these.
+13.5) Test one record in how it merges to "2020_defensible_space_inspections_CALFIRE".  If all looks correct, copy rest of layer.
 
-13.6) Test one record in how it merges to "2020_defensible_space_inspections_SBC".  If all looks correct, copy rest of layer.
+13.6) Select where calfireuni, county, battalion are blank.  Then __Field calculate__: calfireuni=SBC, county=SBA, battalion=1
 
-13.7) Select where calfireuni, county, battalion are blank.  Then __Field calculate__: calfireuni=SBC, county=SBA, battalion=1
-
-13.8) __Field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.
+13.7) __Field calculate__ "Date" field from the "Inspection" field.  NOTE: you may receive a processing error, but click yes and the process will complete.
 _____________________________________________________________________________
 15) Back in windows File Explorer, select all parts of "2020_defensible_space_inspections_SBC" shapefile, Right click and send to compressed/zipped folder.  Then save this zipped folder at: "L:\GIS\Base Data\DSP\2020 DSP Program\SBC AGOL" > create new folder here with the date you exported (e.g. 20200630)
 ## ArcGIS Online
