@@ -96,7 +96,8 @@ _____________________________________________________________________________
 8) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
 9) __"Select by attributes"__ where
 > __"status" IN ( 'Structure Destroyed', 'Uninspected (Locked Gate)')__.  Field Calculate selected features' "Status" field to "Uninspected" 
-10) Close out, and Navigate to file in windows explorer and zip the shapefile.
-11) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
+10) De-select all records and Export data to new shapefile (same name), close out of Arcmap, zip up.
+11) Navigate to file in windows explorer and save the zipfile at "L:\GIS\Base Data\DSP\2020 DSP Program\CAL FIRE AGOL\xxdatexx".  Then, delete shapefile located here
+12) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
     - Overwrite data
-    - Rename fields?
+    - Update dates
