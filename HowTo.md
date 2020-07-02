@@ -90,10 +90,11 @@ _____________________________________________________________________________
 
 ![alt text](https://github.com/sbcfiregis/photos/blob/master/dsp.JPG?raw=true)
 
-5) "Create layer from Selected Features"
-6) Enable editing, Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
-7) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
-8) Close out, and Navigate to file in windows explorer and zip the shapefile.
-9) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
+5) "Create layer from Selected Features".  Open this attribute table and select where date is null.  (These will be "Destroyed or "Locked Gates", where inspection was attempted)
+6) Field calculate date for these based on the date last updated in fulcrum. (should be less than 20 records)
+7) Enable editing, Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank
+8) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
+9) Close out, and Navigate to file in windows explorer and zip the shapefile.
+10) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
     - Overwrite data
     - Rename fields?
