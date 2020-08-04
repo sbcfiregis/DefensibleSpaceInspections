@@ -82,7 +82,7 @@ _____________________________________________________________________________
 22) Search for __SBC 2020 Defensible Space Inspection Dashboard__ > __Edit Application__ > change _Current as of date_ to same as above.  Save changes.
 
 # CALFIRE Data (update monthly)
-1) Extract the zipfile from the steps 1-9 above, and copy to ""L:\GIS\Base Data\DSP\2020 DSP Program\CAL FIRE AGOL" with new folder for today's date.
+1) Extract the zipfile from the steps 1-9 above, and copy to downloads folder.
 2) Once extracted, change name to "2020_SBC_defensible_space_inspections_CALFIRE"
 3) Bring the shapefile into ArcMap or QGIS
 4) Open attribute table and  __"Select by attributes"__ where
