@@ -84,7 +84,7 @@ _____________________________________________________________________________
 # CALFIRE Data (update monthly)
 1) Extract the zipfile from the steps 1-9 above, and copy to downloads folder.
 2) Once extracted, change name to "2020_SBC_defensible_space_inspections_CALFIRE"
-3) Bring the shapefile into ArcMap or QGIS
+3) Bring the shapefile into ArcMap or QGIS. See steps 13.1 for adding in MTO Data.
 4) Open attribute table and  __"Select by attributes"__ where
 > __"status" NOT IN ('Incomplete Data or Never Inspected', 'Due for Inspection 2020')__
 
