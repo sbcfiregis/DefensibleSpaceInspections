@@ -87,15 +87,15 @@ _____________________________________________________________________________
 3) Bring the shapefile into ArcMap or QGIS. See steps 13.1 for adding in MTO Data.
 4) Open attribute table and  __"Select by attributes"__ where
 > __"status" NOT IN ('Incomplete Data or Never Inspected', 'Due for Inspection 2020')__
-
-![alt text](https://github.com/sbcfiregis/photos/blob/master/dsp.JPG?raw=true)
-
 5) "Create layer from Selected Features".  Open this attribute table and select where __"Date" IS NULL__  (These will be "Destroyed or "Locked Gates", where inspection was attempted)
 6) Field calculate date for these based on the date last updated in fulcrum. (should be less than 20 records)
 7) Enable editing, Find and Replace where fields = "Unable to Assess".   Then, "Replace All" to blank.  Save edits and stop editing.
 8) Make sure to only choose records up until the last day of the month.  (For CF records-sake) 
 9) __"Select by attributes"__ where
 > __"status" IN ( 'Structure Destroyed', 'Uninspected (Locked Gate)')__.  Field Calculate selected features' "Status" field to "Uninspected" 
+
+![alt text](https://github.com/sbcfiregis/photos/blob/master/dsp.JPG?raw=true)
+
 10) De-select all records and Export data to new shapefile (same name), close out of Arcmap, zip up.
 11) Navigate to file in windows explorer and save the zipfile at "L:\GIS\Base Data\DSP\2020 DSP Program\CAL FIRE AGOL\xxdatexx".  Then, delete shapefile located here
 12) Import to AGOL: ***MUST DISABLE SYNC IN SETTINGS IN ORDER TO OVERWRITE, THEN RE-ENABLE AFTER UPLOAD**
