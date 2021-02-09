@@ -1,15 +1,16 @@
-Note: "Status"= "properyst"
+1. "inspectorf" to "preventi3" need to be blank.  address_lo check for blanks
 
-1. Clear out "inspection" field.  "inspectorf" to "preventi3" need to be blank
-
-2. Clear out the following fields; inspection, occupant home, inspection_1, any violations (A-M), escalate
+2. Clear out the following fields; inspectorp, occupant home, inspecti_1, any violations (A-M), escalate
+  -Update report title in adata as well as new year's app.
 
 3. Find and replace all "Unable to Assess" with blank
 
-4. _Status Conversions_
+4. Add/subtract based on newly approved SRA (every 5-years; 2021,2026,etc)
+
+5. _Status Conversions_
 
   - if missing any structure data= "Not Started or Never Inspected" (pink)
   
-  - if not destroyed or incomplete= "Due for Inspection 2020"
+  - if not destroyed or incomplete= "Due for Inspection 2021"
   
-5. Test 1 record for import inot Fulcrum.  Note all errors
+6. Test 1 record for import into Fulcrum.  Note all errors
