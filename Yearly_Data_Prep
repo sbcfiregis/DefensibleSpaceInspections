@@ -18,6 +18,24 @@
 7. Seperate records into 2 shapefiles (9,999) and the rest due to 10,000 record import limit.
 
 
-2021 Changes
+#2021 Changes
 
 - Change "Unable to Assess" to "Not Observed" for structure data (Per CalFire)
+
+#2022 Changes
+
+CALFIRE CHANGES
+- Collector to FieldMaps
+
+- Addition of 4 new Statuses
+  - Compliant 6 months - 1 year
+  - Last Inspected 1-2 Years
+  -	Last Inspected 2-3 Years
+  - Inspected over 3 Years Ago
+  
+SBC CHANGES
+
+- Auto-populate and set hidden "Shift" column (calculated by data event using julian calendar [on-status-change])
+
+- Python script created to update status records for 6mo-1yr old, (runs every day at 2200 hours)
+
