@@ -1,6 +1,6 @@
 1. "inspectorf" to "preventi3" need to be blank.  address_lo check for blanks
 
-~~2. Clear out the following fields; inspectorp, occupant home, inspecti_1, any violations (A-M), escalate
+2. ~~Clear out the following fields; inspectorp, occupant home, inspecti_1, any violations (A-M), escalate
   -Update report title in data as well as new year's app.~~
 
 3. Find and replace all "Unable to Assess" with blank
