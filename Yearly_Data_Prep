@@ -11,7 +11,7 @@
 
   - if missing any structure data= "Incomplete Data or Never Inspected" (pink)
   
-  - if not destroyed or incomplete= "Due for Inspection 2021"
+  - if not destroyed or incomplete= "Due for Inspection ~~2021
   
 6. Test 1 record for import into Fulcrum.  Screenshot field matching and all errors
 
