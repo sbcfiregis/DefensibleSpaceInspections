@@ -18,11 +18,11 @@
 7. Seperate records into 2 shapefiles (9,999) and the rest due to 10,000 record import limit.
 
 
-#2021 Changes
+# 2021 Changes
 
 - Change "Unable to Assess" to "Not Observed" for structure data (Per CalFire)
 
-#2022 Changes
+# 2022 Changes
 
 CALFIRE CHANGES
 - Collector to FieldMaps
