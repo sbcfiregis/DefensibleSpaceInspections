@@ -33,9 +33,27 @@
   -	Last Inspected 2-3 Years
   - Inspected over 3 Years Ago
   
-  ## SBC CHANGES
+  ## SBC CHANGES AND UPDATED WORKFLOW
+1. Export 2021 DSP as geodatabase (rename with letter)
 
-- Auto-populate and set hidden "Shift" column (calculated by data event using julian calendar [on-status-change])
+2. Import into ArcPro
+
+3. Add/ Subtract records based on newly approved SRA (every 5-years, 2021,2026,etc) 
+
+4. Status Conversions
+	- If inspection_date is older than 1 year ---> "Due for Inspection"
+		Select all records with status "Due for Inspection", 
+			- find and replace all "Unable to Assess" with blank
+			- all columns from "inspectorf" to "preventi3" "inspection_date" need to be blank (EXCEPT address_visible, )
+			- all shifts to blank
+
+
+6. Test 1 record for import into Fulcrum. Screenshot field matching and all errors
+
+7. Seperate records into 2 shapefiles (9,999) and the rest due to 10,000 record import limit.
+ ____________________________________________________________________________________________
+
+- Auto-populate and set hidden "Shift" column (calculated by data event using julian calendar [on-status-change]) [NOT YET ACTIVE]
 
 - Python script created to update status records for 6mo-1yr old, (runs every day at 2200 hours)
 
