@@ -1,21 +1,21 @@
-1. ~~inspectorf" to "preventi3" need to be blank.  address_lo check for blanks~~
+n/a. ~~inspectorf" to "preventi3" need to be blank.  address_lo check for blanks~~
 
-2. ~~Clear out the following fields; inspectorp, occupant home, inspecti_1, any violations (A-M), escalate
+n/a. ~~Clear out the following fields; inspectorp, occupant home, inspecti_1, any violations (A-M), escalate
   -Update report title in data as well as new year's app.~~
 
-3. Find and replace all "Unable to Assess" with blank
+1. Find and replace all "Unable to Assess" with blank
 
-4. Add/subtract based on newly approved SRA (every 5-years; 2021,2026,etc)
+2. Add/subtract based on newly approved SRA (every 5-years; 2021,2026,etc)
 
-5. _Status Conversions_
+3. _Status Conversions_
 
   ~~- if missing any structure data= "Incomplete Data or Never Inspected" (pink)~~
   
   - if not destroyed or incomplete, and inspectiondate is older than 1 year--> "Due for Inspection" ~~2021~~
   
-6. Test 1 record for import into Fulcrum.  Screenshot field matching and all errors
+4. Test 1 record for import into Fulcrum.  Screenshot field matching and all errors
 
-7. Seperate records into 2 shapefiles (9,999) and the rest due to 10,000 record import limit.
+5. Seperate records into 2 shapefiles (9,999) and the rest due to 10,000 record import limit.
 
 
 # 2021 Changes
