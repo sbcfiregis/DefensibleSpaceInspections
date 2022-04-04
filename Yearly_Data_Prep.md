@@ -57,5 +57,5 @@ n/a. ~~Clear out the following fields; inspectorp, occupant home, inspecti_1, an
 
 - Auto-populate and set hidden "Shift" column (calculated by data event using julian calendar [on-status-change]) [NOT YET ACTIVE]
 
-- Python script created to update status records for 6mo-1yr old, (runs every day at 2200 hours)
+- Python script created to update status records for 6mo-1yr old, (will need to be manually-run in PyCharm every day at 0800 hours)
 
