@@ -15,7 +15,9 @@ n/a. ~~Clear out the following fields; inspectorp, occupant home, inspecti_1, an
   
 4. Test 1 record for import into Fulcrum.  Screenshot field matching and all errors
 
-5. Seperate records into 2 shapefiles (9,999) and the rest due to 10,000 record import limit.
+5. Reconcile any intermediate records that may have been created over winter or AB38-related
+
+6. Seperate records into 2 shapefiles (9,999) and the rest due to 10,000 record import limit.
 
 
 # 2021 Changes
